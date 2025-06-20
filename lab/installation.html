@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide d'Installation des Panneaux Solaires</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .card-img {
+            background-size: cover;
+            background-position: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-img-installation-1 { background-image: url('https://images.unsplash.com/photo-1603899120482-6152fe2bf621?q=80&w=2070&auto=format&fit=crop'); }
+        .card-img-installation-2 { background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop'); }
+        .card-img-installation-3 { background-image: url('https://images.unsplash.com/photo-1600585154526-990d71c4e1f9?q=80&w=2070&auto=format&fit=crop'); }
+        .card-img-installation-4 { background-image: url('https://images.unsplash.com/photo-1603899120483-89e0e5e4b1e6?q=80&w=2070&auto=format&fit=crop'); }
+        @media (max-width: 768px) {
+            .grid-cols-2 { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-gray-50 to-gray-200 font-sans text-gray-800">
+        <header>
+        <div class="header-content max-w-7xl mx-auto flex justify-between items-center">
+            <div class="logo">
+                <img src="../image/Amen1.png" alt="SolarCalc Logo" width="50" height="50" onerror="this.src='https://via.placeholder.com/50'">
+                <span class="text-2xl font-bold">SolarCalc</span>
+            </div>
+            <div class="hamburger" aria-label="Toggle menu"><i class="fas fa-bars"></i></div>
+            <nav class="nav-menu">
+                <div class="dropdown">
+                    <a href="#" class="text-white hover:underline">Solutions Solaires</a>
+                    <div class="dropdown-content">
+                        <a href="index1.php">Dimensionnement</a>
+                          <a href="maintenance.html">Maintenance</a>
+                       
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#" class="text-white hover:underline">À Propos</a>
+                    <div class="dropdown-content">
+                        <a href="mission.html">Mission</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+                <a href="#" class="theme-toggle text-white hover:underline" aria-label="Basculer le thème"><i class="fas fa-moon"></i> Mode Nuit</a>
+            </nav>
+        </div>
+    </header>
+    <div class="bg-gradient-to-r from-green-600 to-green-800 text-white p-6 text-center shadow-lg">
+        <h1 class="text-4xl font-bold">Guide d'Installation des Systèmes Solaires</h1>
+        <p class="mt-2 text-lg">Installez votre système photovoltaïque en toute sécurité</p>
+    </div>
+
+    <main class="max-w-5xl mx-auto p-6">
+        <section class="mb-10">
+            <h2 class="text-3xl font-semibold text-green-700 mb-6 border-b-2 border-green-200 pb-2">Préparation de l’Installation</h2>
+            <p class="text-lg leading-relaxed">Évaluez vos besoins énergétiques et choisissez un emplacement ensoleillé avec un angle de 10-15°. Obtenez les permis nécessaires si requis auprès des autorités locales.</p>
+        </section>
+
+        <section class="mb-10">
+            <h2 class="text-3xl font-semibold text-green-700 mb-6 border-b-2 border-green-200 pb-2">Étapes d’Installation</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300">
+                    <img src="../image/poz.jpg" alt="">
+                    <h3 class="text-xl font-medium text-gray-900">Montage des Supports</h3>
+                    <p class="text-gray-600">Fixez les rails sur un toit solide avec un angle de 10-15° pour optimiser l’ensoleillement et la stabilité.</p>
+                </div>
+                <div class="bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300">
+                    <img src="../image/panneaux1.jpg" alt="">
+                    <h3 class="text-xl font-medium text-gray-900">Installation des Panneaux</h3>
+                    <p class="text-gray-600">Placez les panneaux sur les rails et connectez-les en série ou parallèle avec des connecteurs MC4 pour une tension adaptée.</p>
+                </div>
+                <div class="bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300">
+                    <img src="../image/onduleur.jpg" alt="">
+                    <h3 class="text-xl font-medium text-gray-900">Mise en Place de l’Onduleur</h3>
+                    <p class="text-gray-600">Installez l’onduleur près des batteries et connectez-le au système électrique pour une conversion efficace.</p>
+                </div>
+                <div class="bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300">
+                    <img src="../image/bacterie.jpg" alt="">
+                    <h3 class="text-xl font-medium text-gray-900">Connexion des Batteries</h3>
+                    <p class="text-gray-600">Branchez les batteries dans un endroit ventilé, en respectant la tension du système (e.g., 48V) pour une sécurité optimale.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-10">
+            <h2 class="text-3xl font-semibold text-green-700 mb-6 border-b-2 border-green-200 pb-2">Outils Requis</h2>
+            <ul class="list-disc list-inside text-lg text-gray-700 space-y-2">
+                <li>Perceuse et tournevis</li>
+                <li>Multimètre pour tester les tensions</li>
+                <li>Câbles solaires et connecteurs MC4</li>
+                <li>Équipements de sécurité (gants, lunettes)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="text-3xl font-semibold text-green-700 mb-6 border-b-2 border-green-200 pb-2">Sécurité et Test</h2>
+            <p class="text-lg leading-relaxed text-gray-700">Installez une mise à la terre et testez le système avec un multimètre avant utilisation. Consultez un professionnel pour garantir la conformité et la sécurité.</p>
+        </section>
+    </main>
+
+    <footer class="bg-gradient-to-r from-green-600 to-green-800 text-white p-4 text-center mt-6 shadow-inner">
+        <p class="text-lg">© 2025 Guide Solaire - Tous droits réservés</p>
+    </footer>
+    <script>
+        document.querySelector('.theme-toggle').addEventListener('click', function() {
+            document.body.classList.toggle('dark');
+            this.querySelector('i').classList.toggle('fa-moon');
+            this.querySelector('i').classList.toggle('fa-sun');
+        
+        });
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('hidden');
+        });
+       
+    </script>
+           
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide de Maintenance des Panneaux Solaires</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .card-img {
+            background-size: cover;
+            background-position: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-img-maintenance-1 { background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop'); }
+        .card-img-maintenance-2 { background-image: url('https://images.unsplash.com/photo-1600585154526-990d71c4e1f9?q=80&w=2070&auto=format&fit=crop'); }
+        .card-img-maintenance-3 { background-image: url('https://images.unsplash.com/photo-1603899120482-6152fe2bf621?q=80&w=2070&auto=format&fit=crop'); }
+        .card-img-maintenance-4 { background-image: url('https://images.unsplash.com/photo-1603899120483-89e0e5e4b1e6?q=80&w=2070&auto=format&fit=crop'); }
+        @media (max-width: 768px) {
+            .grid-cols-2 { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-gray-50 to-gray-200 font-sans text-gray-800">
+        <header>
+        <div class="header-content max-w-7xl mx-auto flex justify-between items-center">
+            <div class="logo">
+                <img src="../image/Amen1.png" alt="SolarCalc Logo" width="50" height="50" onerror="this.src='https://via.placeholder.com/50'">
+                <span class="text-2xl font-bold">SolarCalc</span>
+            </div>
+            <div class="hamburger" aria-label="Toggle menu"><i class="fas fa-bars"></i></div>
+            <nav class="nav-menu">
+                <div class="dropdown">
+                    <a href="#" class="text-white hover:underline">Solutions Solaires</a>
+                    <div class="dropdown-content">
+                        <a href="index1.php">Dimensionnement</a>
+                        <a href="installation.html">Installation</a>
+                        
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#" class="text-white hover:underline">À Propos</a>
+                    <div class="dropdown-content">
+                        <a href="mission.html">Mission</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+                <a href="#" class="theme-toggle text-white hover:underline" aria-label="Basculer le thème"><i class="fas fa-moon"></i> Mode Nuit</a>
+            </nav>
+        </div>
+    </header>
+    <div class="bg-gradient-to-r from-green-600 to-green-800 text-white p-6 text-center shadow-lg">
+        <h1 class="text-4xl font-bold">Guide de Maintenance des Systèmes Solaires</h1>
+        <p class="mt-2 text-lg">Maintenez votre système photovoltaïque en parfait état</p>
+    </div>
+
+    <main class="max-w-5xl mx-auto p-6">
+        <section class="mb-10">
+            <h2 class="text-3xl font-semibold text-green-700 mb-6 border-b-2 border-green-200 pb-2">Pourquoi la Maintenance est Importante</h2>
+            <p class="text-lg leading-relaxed">Une maintenance régulière garantit l’efficacité et la longévité de votre système solaire. Elle prévient les pannes et maximise la production d’énergie, assurant un retour sur investissement optimal.</p>
+        </section>
+
+        <section class="mb-10">
+            <h2 class="text-3xl font-semibold text-green-700 mb-6 border-b-2 border-green-200 pb-2">Étapes de Maintenance</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300">
+              <img src="../image/netoyage.jpg" alt="">
+                    <h3 class="text-xl font-medium text-gray-900">Nettoyage des Panneaux</h3>
+                    <p class="text-gray-600">Nettoyez les panneaux tous les 6 mois avec de l’eau douce et un chiffon doux pour enlever la poussière et les débris, améliorant leur rendement.</p>
+                </div>
+                <div class="bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300">
+                    <img src="../image/controle.jpg" alt="">
+                    <h3 class="text-xl font-medium text-gray-900">Vérification des Connexions</h3>
+                    <p class="text-gray-600">Inspectez les câbles et connecteurs annuellement pour détecter des signes de corrosion ou de desserrage, assurant une sécurité électrique.</p>
+                </div>
+                <div class="bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300">
+                   <img src="../image/bacterie.jpg" alt="">
+                    <h3 class="text-xl font-medium text-gray-900">Contrôle des Batteries</h3>
+                    <p class="text-gray-600">Vérifiez le niveau de charge et l’état des batteries tous les 6 mois, en suivant les recommandations du fabricant pour prolonger leur durée de vie.</p>
+                </div>
+                <div class="bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300">
+                <img src="../image/misepanneaux.jpg" alt="">
+                    <h3 class="text-xl font-medium text-gray-900">Inspection de l’Onduleur</h3>
+                    <p class="text-gray-600">Assurez-vous que l’onduleur fonctionne correctement et consultez un technicien si des erreurs apparaissent sur l’écran.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-10">
+            <h2 class="text-3xl font-semibold text-green-700 mb-6 border-b-2 border-green-200 pb-2">Fréquence Recommandée</h2>
+            <ul class="list-disc list-inside text-lg text-gray-700 space-y-2">
+                <li>Nettoyage : Tous les 6 mois</li>
+                <li>Inspection visuelle : Mensuelle</li>
+                <li>Maintenance approfondie : Annuelle par un professionnel</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="text-3xl font-semibold text-green-700 mb-6 border-b-2 border-green-200 pb-2">Conseils de Sécurité</h2>
+            <p class="text-lg leading-relaxed text-gray-700">Éteignez le système avant toute intervention. Utilisez des équipements de protection individuelle (gants, lunettes) et évitez les manipulations sous la pluie.</p>
+        </section>
+    </main>
+
+    <footer class="bg-gradient-to-r from-green-600 to-green-800 text-white p-4 text-center mt-6 shadow-inner">
+        <p class="text-lg">© 2025 Guide Solaire - Tous droits réservés</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('hidden');
+        });
+
+        document.querySelector('.theme-toggle').addEventListener('click', function() {
+            document.body.classList.toggle('dark');
+            this.querySelector('i').classList.toggle('fa-moon');
+            this.querySelector('i').classList.toggle('fa-sun');
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.js"></script>
+</body>
+</html>
